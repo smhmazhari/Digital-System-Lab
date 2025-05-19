@@ -1,0 +1,208 @@
+|MSSD
+SerIn => SerIn.IN2
+clkPB => clkPB.IN1
+clock => clock.IN2
+reset => reset.IN2
+P0 <= datapath:DP.port11
+P1 <= datapath:DP.port12
+P2 <= datapath:DP.port13
+P3 <= datapath:DP.port14
+done <= controller:CU.port14
+SerOutValid <= controller:CU.port13
+ssd_result[0] <= datapath:DP.port15
+ssd_result[1] <= datapath:DP.port15
+ssd_result[2] <= datapath:DP.port15
+ssd_result[3] <= datapath:DP.port15
+ssd_result[4] <= datapath:DP.port15
+ssd_result[5] <= datapath:DP.port15
+ssd_result[6] <= datapath:DP.port15
+
+
+|MSSD|datapath:DP
+SerIn => SerIn.IN3
+sh_en => sh_en.IN1
+clock => clock.IN6
+reset => reset.IN6
+clkEN <= clkEN.DB_MAX_OUTPUT_PORT_TYPE
+cnt1 => cnt1.IN1
+sh_enD => sh_enD.IN1
+cnt2 => cnt2.IN1
+cntD => cntD.IN1
+ldcntD => ~NO_FANOUT~
+clkPB => clkPB.IN1
+P0 <= Demux_1to4:Demux.port2
+P1 <= Demux_1to4:Demux.port3
+P2 <= Demux_1to4:Demux.port4
+P3 <= Demux_1to4:Demux.port5
+ssd_result[0] <= SSD:ssd.port1
+ssd_result[1] <= SSD:ssd.port1
+ssd_result[2] <= SSD:ssd.port1
+ssd_result[3] <= SSD:ssd.port1
+ssd_result[4] <= SSD:ssd.port1
+ssd_result[5] <= SSD:ssd.port1
+ssd_result[6] <= SSD:ssd.port1
+co1 <= counter_1bit:Port_cnt.port4
+co2 <= co2.DB_MAX_OUTPUT_PORT_TYPE
+coD <= counter_4bit_with_load:DataTrans_cnt.port7
+
+
+|MSSD|datapath:DP|shift_register_2bit:PortNum_shr
+clock => port_num[0]~reg0.CLK
+clock => port_num[1]~reg0.CLK
+reset => port_num[0]~reg0.ACLR
+reset => port_num[1]~reg0.ACLR
+clkEN => port_num[1]~reg0.ENA
+clkEN => port_num[0]~reg0.ENA
+sh_en => port_num.OUTPUTSELECT
+sh_en => port_num.OUTPUTSELECT
+SerIn => port_num.DATAB
+port_num[0] <= port_num[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+port_num[1] <= port_num[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MSSD|datapath:DP|counter_1bit:Port_cnt
+clock => count.CLK
+reset => count.ACLR
+clkEN => count.ENA
+cnt1 => count.OUTPUTSELECT
+co1 <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MSSD|datapath:DP|shift_register_4bit:DataNum_shr
+clock => NumData[0]~reg0.CLK
+clock => NumData[1]~reg0.CLK
+clock => NumData[2]~reg0.CLK
+clock => NumData[3]~reg0.CLK
+reset => NumData[0]~reg0.ACLR
+reset => NumData[1]~reg0.ACLR
+reset => NumData[2]~reg0.ACLR
+reset => NumData[3]~reg0.ACLR
+clkEN => NumData[3]~reg0.ENA
+clkEN => NumData[2]~reg0.ENA
+clkEN => NumData[1]~reg0.ENA
+clkEN => NumData[0]~reg0.ENA
+sh_enD => NumData.OUTPUTSELECT
+sh_enD => NumData.OUTPUTSELECT
+sh_enD => NumData.OUTPUTSELECT
+sh_enD => NumData.OUTPUTSELECT
+SerIn => NumData.DATAB
+NumData[0] <= NumData[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+NumData[1] <= NumData[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+NumData[2] <= NumData[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+NumData[3] <= NumData[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MSSD|datapath:DP|counter_2bit:DataNum_cnt
+clock => count[0].CLK
+clock => count[1].CLK
+clock => count[2].CLK
+reset => count[0].ACLR
+reset => count[1].ACLR
+reset => count[2].ACLR
+clkEN => count[0].ENA
+clkEN => count[2].ENA
+clkEN => count[1].ENA
+cnt2 => count.OUTPUTSELECT
+cnt2 => count.OUTPUTSELECT
+cnt2 => count.OUTPUTSELECT
+co2 <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MSSD|datapath:DP|counter_4bit_with_load:DataTrans_cnt
+clock => count[0]~reg0.CLK
+clock => count[1]~reg0.CLK
+clock => count[2]~reg0.CLK
+clock => count[3]~reg0.CLK
+reset => count[0]~reg0.PRESET
+reset => count[1]~reg0.PRESET
+reset => count[2]~reg0.PRESET
+reset => count[3]~reg0.PRESET
+clkEN => count[0]~reg0.ENA
+clkEN => count[3]~reg0.ENA
+clkEN => count[2]~reg0.ENA
+clkEN => count[1]~reg0.ENA
+cntD => count.OUTPUTSELECT
+cntD => count.OUTPUTSELECT
+cntD => count.OUTPUTSELECT
+cntD => count.OUTPUTSELECT
+NumData[0] => count.DATAB
+NumData[1] => count.DATAB
+NumData[2] => count.DATAB
+NumData[3] => count.DATAB
+ldcntD => count.OUTPUTSELECT
+ldcntD => count.OUTPUTSELECT
+ldcntD => count.OUTPUTSELECT
+ldcntD => count.OUTPUTSELECT
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+coD <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MSSD|datapath:DP|SSD:ssd
+count[0] => Decoder0.IN3
+count[1] => Decoder0.IN2
+count[2] => Decoder0.IN1
+count[3] => Decoder0.IN0
+ssd_result[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+ssd_result[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+ssd_result[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+ssd_result[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+ssd_result[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+ssd_result[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+ssd_result[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MSSD|datapath:DP|Onepulser:onepulser
+clkPB => nstate.B.DATAB
+clkPB => Selector1.IN2
+clkPB => Selector0.IN1
+clock => pstate~1.DATAIN
+reset => pstate~3.DATAIN
+clkEN <= clkEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MSSD|datapath:DP|Demux_1to4:Demux
+SerIn => P3.DATAB
+SerIn => P2.DATAB
+SerIn => P1.DATAB
+SerIn => P0.DATAB
+port_num[0] => Decoder0.IN1
+port_num[1] => Decoder0.IN0
+P0 <= P0.DB_MAX_OUTPUT_PORT_TYPE
+P1 <= P1.DB_MAX_OUTPUT_PORT_TYPE
+P2 <= P2.DB_MAX_OUTPUT_PORT_TYPE
+P3 <= P3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MSSD|controller:CU
+SerIn => Selector0.IN2
+SerIn => Selector1.IN1
+clkEN => pstate.OUTPUTSELECT
+clkEN => pstate.OUTPUTSELECT
+clkEN => pstate.OUTPUTSELECT
+clkEN => pstate.OUTPUTSELECT
+clock => pstate~3.DATAIN
+reset => pstate~5.DATAIN
+co1 => Selector4.IN3
+co1 => Selector5.IN3
+co1 => Selector2.IN3
+co1 => Selector1.IN2
+co2 => ldcntD.DATAB
+co2 => Selector6.IN3
+co2 => Selector3.IN3
+co2 => Selector2.IN1
+coD => done.DATAB
+coD => Selector0.IN3
+coD => Selector3.IN1
+cnt1 <= sh_en.DB_MAX_OUTPUT_PORT_TYPE
+cnt2 <= Selector4.DB_MAX_OUTPUT_PORT_TYPE
+cntD <= cntD.DB_MAX_OUTPUT_PORT_TYPE
+ldcntD <= ldcntD.DB_MAX_OUTPUT_PORT_TYPE
+sh_en <= sh_en.DB_MAX_OUTPUT_PORT_TYPE
+sh_enD <= Selector5.DB_MAX_OUTPUT_PORT_TYPE
+SerOutValid <= Selector6.DB_MAX_OUTPUT_PORT_TYPE
+done <= done.DB_MAX_OUTPUT_PORT_TYPE
+
+

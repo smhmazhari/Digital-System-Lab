@@ -1,0 +1,13 @@
+
+State Machine - |MSSD|controller:CU|pstate
+Name pstate.C pstate.B pstate.A pstate.Init 
+pstate.Init 0 0 0 0 
+pstate.A 0 0 1 1 
+pstate.B 0 1 0 1 
+pstate.C 1 0 0 1 
+
+State Machine - |MSSD|datapath:DP|Onepulser:onepulser|pstate
+Name pstate.A pstate.C pstate.B 
+pstate.A 0 0 0 
+pstate.B 1 0 1 
+pstate.C 1 1 0 

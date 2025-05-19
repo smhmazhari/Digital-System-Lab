@@ -1,0 +1,137 @@
+{G:/University/Term 4/Lab Madman/4/wrapper.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/wrapper.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wrapper
+
+Top level modules:
+	wrapper
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/LUTExp.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/LUTExp.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LUT
+
+Top level modules:
+	LUT
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/wrapper_controller.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/wrapper_controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wrapper_controller
+
+Top level modules:
+	wrapper_controller
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/Controller.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/Controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/Accelerator.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/Accelerator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/TB.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/comb_shift.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/comb_shift.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module comb_shift
+
+Top level modules:
+	comb_shift
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/wrapper_datapath.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/wrapper_datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wrapper_datapath
+
+Top level modules:
+	wrapper_datapath
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/Datapath.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/Datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/exponential.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/exponential.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module exponential
+
+Top level modules:
+	exponential
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/mux2to1.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/mux2to1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/concat.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/concat.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module concat
+
+Top level modules:
+	concat
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/Counter.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/Counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/shift_register16.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/shift_register16.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_register16
+
+Top level modules:
+	shift_register16
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/onepulser.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/onepulser.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module onepulser
+
+Top level modules:
+	onepulser
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/register.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/register18.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/register18.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register18
+
+Top level modules:
+	register18
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/multiplier.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/multiplier.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/register2.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/register2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register2
+
+Top level modules:
+	register2
+
+} {} {}} {G:/University/Term 4/Lab Madman/4/adder.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/4/adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}}

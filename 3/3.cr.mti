@@ -1,0 +1,101 @@
+{G:/University/Term 4/Lab Madman/3/controller_acc.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/3/controller_acc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller_acc
+
+Top level modules:
+	controller_acc
+
+} {} {}} {G:/University/Term 4/Lab Madman/3/PWM.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/3/PWM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PWM
+
+Top level modules:
+	PWM
+
+} {} {}} {G:/University/Term 4/Lab Madman/3/Function_Generator.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/3/Function_Generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Function_Generator
+
+Top level modules:
+	Function_Generator
+
+} {} {}} {G:/University/Term 4/Lab Madman/3/counter6bit.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/3/counter6bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter6bit
+
+Top level modules:
+	counter6bit
+
+} {} {}} {G:/University/Term 4/Lab Madman/3/datapath_acc.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/3/datapath_acc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath_acc
+
+Top level modules:
+	datapath_acc
+
+} {} {}} {G:/University/Term 4/Lab Madman/3/Amp_Selector.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/3/Amp_Selector.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Amp_Selector
+
+Top level modules:
+	Amp_Selector
+
+} {} {}} {G:/University/Term 4/Lab Madman/3/Simple_TB.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/3/Simple_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Simple_TB
+-- Compiling module TB
+
+Top level modules:
+	Simple_TB
+	TB
+
+} {} {}} {G:/University/Term 4/Lab Madman/3/counter8bit.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/3/counter8bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter8bit
+
+Top level modules:
+	counter8bit
+
+} {} {}} {G:/University/Term 4/Lab Madman/3/Frequency_Selector.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/3/Frequency_Selector.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Frequency_Selector
+
+Top level modules:
+	Frequency_Selector
+
+} {} {}} {G:/University/Term 4/Lab Madman/3/mux6to1.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/3/mux6to1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux6to1
+
+Top level modules:
+	mux6to1
+
+} {} {}} {G:/University/Term 4/Lab Madman/3/datapath.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/3/datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} {G:/University/Term 4/Lab Madman/3/Simple_waves.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/3/Simple_waves.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Simple_waves
+
+Top level modules:
+	Simple_waves
+
+} {} {}} {G:/University/Term 4/Lab Madman/3/DDS_waves.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/3/DDS_waves.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DDS_waves
+
+Top level modules:
+	DDS_waves
+
+} {} {}} {G:/University/Term 4/Lab Madman/3/Phase_Accumulator.v} {1 {vlog -work work -stats=none {G:/University/Term 4/Lab Madman/3/Phase_Accumulator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module phase_accumulator
+
+Top level modules:
+	phase_accumulator
+
+} {} {}}

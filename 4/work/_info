@@ -1,0 +1,473 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dG:/University/Term 4/Lab Madman/3
+vadder
+Z0 !s110 1716634395
+!i10b 1
+!s100 eCc=H`lER_4_hdzNQgFR22
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IGcO6?T<8dlhIV`S2BGR1e2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dG:/University/Term 4/Lab Madman/4
+Z4 w1716025257
+8G:/University/Term 4/Lab Madman/4/adder.v
+FG:/University/Term 4/Lab Madman/4/adder.v
+!i122 87
+L0 1 5
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1716634395.000000
+!s107 G:/University/Term 4/Lab Madman/4/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/adder.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vcomb_shift
+R0
+!i10b 1
+!s100 f:e=<@Y<E=A_73gconHYG0
+R1
+IO?bOJ^Q<>^:jPfb<>_fWQ1
+R2
+R3
+w1716030130
+8G:/University/Term 4/Lab Madman/4/comb_shift.v
+FG:/University/Term 4/Lab Madman/4/comb_shift.v
+!i122 88
+Z9 L0 1 11
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/University/Term 4/Lab Madman/4/comb_shift.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/comb_shift.v|
+!i113 1
+R7
+R8
+vconcat
+Z10 !s110 1716634396
+!i10b 1
+!s100 mN`Y09l57U6k;f`YU_eK]2
+R1
+I;N74We[K5iROVOeV1c3nI1
+R2
+R3
+w1716029037
+8G:/University/Term 4/Lab Madman/4/concat.v
+FG:/University/Term 4/Lab Madman/4/concat.v
+!i122 89
+L0 1 6
+R5
+r1
+!s85 0
+31
+Z11 !s108 1716634396.000000
+!s107 G:/University/Term 4/Lab Madman/4/concat.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/concat.v|
+!i113 1
+R7
+R8
+vcontroller
+R10
+!i10b 1
+!s100 >YBmif9G@@2A75N5d7f=<2
+R1
+I1kldB_;:5Dc6TKM2mDcT31
+R2
+R3
+R4
+8G:/University/Term 4/Lab Madman/4/Controller.v
+FG:/University/Term 4/Lab Madman/4/Controller.v
+!i122 90
+L0 1 64
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/University/Term 4/Lab Madman/4/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/Controller.v|
+!i113 1
+R7
+R8
+vcounter
+R10
+!i10b 1
+!s100 UQ1j^HaPSjWgWN`:a6=h<1
+R1
+IeOO3FjX:54jQCHnJWO]2o2
+R2
+R3
+R4
+8G:/University/Term 4/Lab Madman/4/Counter.v
+FG:/University/Term 4/Lab Madman/4/Counter.v
+!i122 91
+Z12 L0 2 14
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/University/Term 4/Lab Madman/4/Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/Counter.v|
+!i113 1
+R7
+R8
+vcounter2
+!s110 1716636540
+!i10b 1
+!s100 Ncbje`oOKh1?d7g]bh5Pd3
+R1
+IhbbAU9P4zXcT3JJUfb=]:3
+R2
+R3
+w1716636537
+8G:/University/Term 4/Lab Madman/4/counter2.v
+FG:/University/Term 4/Lab Madman/4/counter2.v
+!i122 115
+Z13 L0 1 15
+R5
+r1
+!s85 0
+31
+!s108 1716636540.000000
+!s107 G:/University/Term 4/Lab Madman/4/counter2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/counter2.v|
+!i113 1
+R7
+R8
+vdatapath
+R10
+!i10b 1
+!s100 X3Sl?G^Fbb0?X:oc4_X;92
+R1
+Il1Hh_dScb`lc2=3M]`^Z63
+R2
+R3
+Z14 w1716025258
+8G:/University/Term 4/Lab Madman/4/Datapath.v
+FG:/University/Term 4/Lab Madman/4/Datapath.v
+!i122 93
+Z15 L0 1 24
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/University/Term 4/Lab Madman/4/Datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/Datapath.v|
+!i113 1
+R7
+R8
+vexponential
+R10
+!i10b 1
+!s100 :UcMgTITzP5IFHQiZ[e;_1
+R1
+IT[2?NA8zM=H]1d9T`4^K12
+R2
+R3
+w1716033062
+8G:/University/Term 4/Lab Madman/4/exponential.v
+FG:/University/Term 4/Lab Madman/4/exponential.v
+!i122 94
+R9
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/University/Term 4/Lab Madman/4/exponential.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/exponential.v|
+!i113 1
+R7
+R8
+vLUT
+R10
+!i10b 1
+!s100 JgVO?Lj==2bRMg4oCe6nH3
+R1
+IRG`O@k74;Dbd<JFcjOCV:0
+R2
+R3
+R14
+8G:/University/Term 4/Lab Madman/4/LUTExp.v
+FG:/University/Term 4/Lab Madman/4/LUTExp.v
+!i122 95
+Z16 L0 1 16
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/University/Term 4/Lab Madman/4/LUTExp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/LUTExp.v|
+!i113 1
+R7
+R8
+n@l@u@t
+vmultiplier
+R10
+!i10b 1
+!s100 OLiLEPYa]L[;Zh@Me8Z9f1
+R1
+I=3X99>R3f]MaU0kdYYW@E3
+R2
+R3
+R4
+8G:/University/Term 4/Lab Madman/4/multiplier.v
+FG:/University/Term 4/Lab Madman/4/multiplier.v
+!i122 96
+Z17 L0 2 5
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/University/Term 4/Lab Madman/4/multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/multiplier.v|
+!i113 1
+R7
+R8
+vmux2to1
+R10
+!i10b 1
+!s100 FWhMI@:R3Tdk@:__`5[C<2
+R1
+I<0IZzV=]aB]OPEUQRccaF1
+R2
+R3
+R4
+8G:/University/Term 4/Lab Madman/4/mux2to1.v
+FG:/University/Term 4/Lab Madman/4/mux2to1.v
+!i122 97
+R17
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/University/Term 4/Lab Madman/4/mux2to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/mux2to1.v|
+!i113 1
+R7
+R8
+vonepulser
+R10
+!i10b 1
+!s100 [abCQX8>YFEd?Y3U16C1b2
+R1
+IRcL7LFW?DmcKEnMdWf=S:3
+R2
+R3
+w1716030445
+8G:/University/Term 4/Lab Madman/4/onepulser.v
+FG:/University/Term 4/Lab Madman/4/onepulser.v
+!i122 98
+L0 1 34
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/University/Term 4/Lab Madman/4/onepulser.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/onepulser.v|
+!i113 1
+R7
+R8
+vregister
+R10
+!i10b 1
+!s100 7cl4m`oQk9Q7i<YFIboml2
+R1
+IN6InN3[aPADnUjFjK;60g1
+R2
+R3
+R4
+8G:/University/Term 4/Lab Madman/4/register.v
+FG:/University/Term 4/Lab Madman/4/register.v
+!i122 99
+R12
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/University/Term 4/Lab Madman/4/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/register.v|
+!i113 1
+R7
+R8
+vregister18
+R10
+!i10b 1
+!s100 oAz243<D<a_lCnTHNlRjS2
+R1
+I[30HUi4F>ZULg`aT861463
+R2
+R3
+R4
+8G:/University/Term 4/Lab Madman/4/register18.v
+FG:/University/Term 4/Lab Madman/4/register18.v
+!i122 101
+R12
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/University/Term 4/Lab Madman/4/register18.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/register18.v|
+!i113 1
+R7
+R8
+vregister2
+R10
+!i10b 1
+!s100 GPUMnJW4fz^VChkcCma3V1
+R1
+Im[^b4d>@3K7E5dojFo`780
+R2
+R3
+w1716029635
+8G:/University/Term 4/Lab Madman/4/register2.v
+FG:/University/Term 4/Lab Madman/4/register2.v
+!i122 100
+R16
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/University/Term 4/Lab Madman/4/register2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/register2.v|
+!i113 1
+R7
+R8
+vshift_register16
+!s110 1716635370
+!i10b 1
+!s100 :1b_U<>WIj=VDongFYLKd0
+R1
+I@22QRA?bLVIR]KUjPf8l42
+R2
+R3
+w1716635363
+8G:/University/Term 4/Lab Madman/4/shift_register16.v
+FG:/University/Term 4/Lab Madman/4/shift_register16.v
+!i122 110
+L0 1 19
+R5
+r1
+!s85 0
+31
+!s108 1716635370.000000
+!s107 G:/University/Term 4/Lab Madman/4/shift_register16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/shift_register16.v|
+!i113 1
+R7
+R8
+vTB
+!s110 1716636512
+!i10b 1
+!s100 KcGVA^`Yz5ol6:UlmTz6Z2
+R1
+I5=X8CzXcOXKfiGYjch9IY2
+R2
+R3
+w1716636510
+8G:/University/Term 4/Lab Madman/4/TB.v
+FG:/University/Term 4/Lab Madman/4/TB.v
+!i122 114
+L0 2 56
+R5
+r1
+!s85 0
+31
+!s108 1716636512.000000
+!s107 G:/University/Term 4/Lab Madman/4/TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/TB.v|
+!i113 1
+R7
+R8
+n@t@b
+vwrapper
+R10
+!i10b 1
+!s100 7?VniMzlVYlX6XnUV`n]A2
+R1
+I=cF0``bTI850QUf3b;;DM2
+R2
+R3
+w1716631696
+8G:/University/Term 4/Lab Madman/4/wrapper.v
+FG:/University/Term 4/Lab Madman/4/wrapper.v
+!i122 104
+R13
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/University/Term 4/Lab Madman/4/wrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/wrapper.v|
+!i113 1
+R7
+R8
+vwrapper_controller
+!s110 1716634514
+!i10b 1
+!s100 47?2_@]^mVDbNB1k]99O?2
+R1
+ITZIVX7:kTD1I[n=ORbIc_0
+R2
+R3
+w1716634510
+8G:/University/Term 4/Lab Madman/4/wrapper_controller.v
+FG:/University/Term 4/Lab Madman/4/wrapper_controller.v
+!i122 107
+L0 1 59
+R5
+r1
+!s85 0
+31
+!s108 1716634514.000000
+!s107 G:/University/Term 4/Lab Madman/4/wrapper_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/wrapper_controller.v|
+!i113 1
+R7
+R8
+vwrapper_datapath
+R10
+!i10b 1
+!s100 W?WeZj7CO[85gBz7`lzXO1
+R1
+IzbQ35>@8WiQFCR<hF2O^G0
+R2
+R3
+w1716632461
+8G:/University/Term 4/Lab Madman/4/wrapper_datapath.v
+FG:/University/Term 4/Lab Madman/4/wrapper_datapath.v
+!i122 105
+R15
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/University/Term 4/Lab Madman/4/wrapper_datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/4/wrapper_datapath.v|
+!i113 1
+R7
+R8

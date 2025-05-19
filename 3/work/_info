@@ -1,0 +1,388 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dG:/University/Term 4/Lab Madman/2
+vAmp_Selector
+Z0 !s110 1715182595
+!i10b 1
+!s100 5ObU6XZ<@lLAT?H5Y2HCT0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IGU>QIFHN>d`V9l_:RhQWc1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dG:/University/Term 4/Lab Madman/3
+w1714215724
+8G:/University/Term 4/Lab Madman/3/Amp_Selector.v
+FG:/University/Term 4/Lab Madman/3/Amp_Selector.v
+!i122 325
+Z4 L0 1 7
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1715182595.000000
+!s107 G:/University/Term 4/Lab Madman/3/Amp_Selector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/3/Amp_Selector.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@amp_@selector
+vcontroller_acc
+R0
+!i10b 1
+!s100 Bi9oJm^69DV<iXHF`g5F`3
+R1
+IV789gHj9g^IMY2fBOFVHQ1
+R2
+R3
+w1714219462
+8G:/University/Term 4/Lab Madman/3/controller_acc.v
+FG:/University/Term 4/Lab Madman/3/controller_acc.v
+!i122 331
+L0 1 43
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/University/Term 4/Lab Madman/3/controller_acc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/3/controller_acc.v|
+!i113 1
+R7
+R8
+vcounter6bit
+!s110 1715183015
+!i10b 1
+!s100 X1Wl:>_g[z14ON6C@00fQ3
+R1
+I;bKQP8S1LM3Bffo6P0n1[1
+R2
+R3
+w1715182921
+8G:/University/Term 4/Lab Madman/3/counter6bit.v
+FG:/University/Term 4/Lab Madman/3/counter6bit.v
+!i122 341
+L0 1 14
+R5
+r1
+!s85 0
+31
+!s108 1715183015.000000
+!s107 G:/University/Term 4/Lab Madman/3/counter6bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/3/counter6bit.v|
+!i113 1
+R7
+R8
+vcounter8bit
+R0
+!i10b 1
+!s100 i=h>X:YbRI=@o[5hnA3e13
+R1
+I?10[oh9mJ=cDUdhYifHIb0
+R2
+R3
+w1715180521
+8G:/University/Term 4/Lab Madman/3/counter8bit.v
+FG:/University/Term 4/Lab Madman/3/counter8bit.v
+!i122 335
+Z9 L0 1 15
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/University/Term 4/Lab Madman/3/counter8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/3/counter8bit.v|
+!i113 1
+R7
+R8
+vdatapath
+!s110 1715183565
+!i10b 1
+!s100 QeREao<3RP_nDcO]8O@KY0
+R1
+I29fog[CZZ>CO8_RgdeHfg0
+R2
+R3
+w1715183561
+8G:/University/Term 4/Lab Madman/3/datapath.v
+FG:/University/Term 4/Lab Madman/3/datapath.v
+!i122 344
+L0 1 20
+R5
+r1
+!s85 0
+31
+!s108 1715183565.000000
+!s107 G:/University/Term 4/Lab Madman/3/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/3/datapath.v|
+!i113 1
+R7
+R8
+vdatapath_acc
+R0
+!i10b 1
+!s100 g9=o>SK4ckkhNm2ciLA?62
+R1
+I0j1JIOoIFJLclj[_1A2Rb2
+R2
+R3
+w1715180925
+8G:/University/Term 4/Lab Madman/3/datapath_acc.v
+FG:/University/Term 4/Lab Madman/3/datapath_acc.v
+!i122 333
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/University/Term 4/Lab Madman/3/datapath_acc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/3/datapath_acc.v|
+!i113 1
+R7
+R8
+vDDS_waves
+!s110 1715183232
+!i10b 1
+!s100 ;05XG;TGPVIMLi43Hcf=;1
+R1
+INFhfgXO6QVJAR^2C>d`^Q0
+R2
+R3
+w1715183229
+8G:/University/Term 4/Lab Madman/3/DDS_waves.v
+FG:/University/Term 4/Lab Madman/3/DDS_waves.v
+!i122 343
+L0 1 27
+R5
+r1
+!s85 0
+31
+!s108 1715183232.000000
+!s107 G:/University/Term 4/Lab Madman/3/DDS_waves.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/3/DDS_waves.v|
+!i113 1
+R7
+R8
+n@d@d@s_waves
+vFrequency_Selector
+R0
+!i10b 1
+!s100 aGR<:Y?8bh9JH[IgV3;S=2
+R1
+I`j4Mj81>EE=gScDY4dIEW0
+R2
+R3
+w1714214543
+8G:/University/Term 4/Lab Madman/3/Frequency_Selector.v
+FG:/University/Term 4/Lab Madman/3/Frequency_Selector.v
+!i122 327
+L0 1 23
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/University/Term 4/Lab Madman/3/Frequency_Selector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/3/Frequency_Selector.v|
+!i113 1
+R7
+R8
+n@frequency_@selector
+vFunction_Generator
+R0
+!i10b 1
+!s100 J;9T]fn0KzDDJD5m:B13Z3
+R1
+IB:EUnZegZQR3g2^kOLoo@2
+R2
+R3
+w1714215339
+8G:/University/Term 4/Lab Madman/3/Function_Generator.v
+FG:/University/Term 4/Lab Madman/3/Function_Generator.v
+!i122 328
+L0 1 6
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/University/Term 4/Lab Madman/3/Function_Generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/3/Function_Generator.v|
+!i113 1
+R7
+R8
+n@function_@generator
+vmux6to1
+R0
+!i10b 1
+!s100 G511>9AMCne_`bQhASM]72
+R1
+IR<4<;3W>FZiP]3nc5RVe[2
+R2
+R3
+w1715182589
+8G:/University/Term 4/Lab Madman/3/mux6to1.v
+FG:/University/Term 4/Lab Madman/3/mux6to1.v
+!i122 337
+L0 1 18
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/University/Term 4/Lab Madman/3/mux6to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/3/mux6to1.v|
+!i113 1
+R7
+R8
+vphase_accumulator
+R0
+!i10b 1
+!s100 _XP[6b]_EHgGc4KU9db0W2
+R1
+IgPFDonS<^j4`6Pggj8P[B3
+R2
+R3
+w1715180951
+8G:/University/Term 4/Lab Madman/3/Phase_Accumulator.v
+FG:/University/Term 4/Lab Madman/3/Phase_Accumulator.v
+!i122 334
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/University/Term 4/Lab Madman/3/Phase_Accumulator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/3/Phase_Accumulator.v|
+!i113 1
+R7
+R8
+vPWM
+R0
+!i10b 1
+!s100 SlHVgIfiM<a5BS<_4lOOC3
+R1
+I[7m`:f8zR]IiI4P01G3E[3
+R2
+R3
+w1715176953
+8G:/University/Term 4/Lab Madman/3/PWM.v
+FG:/University/Term 4/Lab Madman/3/PWM.v
+!i122 338
+L0 1 13
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/University/Term 4/Lab Madman/3/PWM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/3/PWM.v|
+!i113 1
+R7
+R8
+n@p@w@m
+vSimple_TB
+Z10 !s110 1715962501
+!i10b 1
+!s100 n=;J;1?AgiW>24KRHkkU40
+R1
+ImE0Y@k5San7ihTAo8?Gn80
+R2
+R3
+Z11 w1715962498
+Z12 8G:/University/Term 4/Lab Madman/3/Simple_TB.v
+Z13 FG:/University/Term 4/Lab Madman/3/Simple_TB.v
+!i122 355
+R9
+R5
+r1
+!s85 0
+31
+Z14 !s108 1715962501.000000
+!s107 G:/University/Term 4/Lab Madman/3/Simple_TB.v|
+Z15 !s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/3/Simple_TB.v|
+!i113 1
+R7
+R8
+n@simple_@t@b
+vSimple_waves
+R0
+!i10b 1
+!s100 Q@T4D0XM[FHMj4d@G3<z[3
+R1
+ISH:QQakfFY>67dUC5E`C>1
+R2
+R3
+w1714216500
+8G:/University/Term 4/Lab Madman/3/Simple_waves.v
+FG:/University/Term 4/Lab Madman/3/Simple_waves.v
+!i122 330
+L0 1 22
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/University/Term 4/Lab Madman/3/Simple_waves.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/3/Simple_waves.v|
+!i113 1
+R7
+R8
+n@simple_waves
+vTB
+R10
+!i10b 1
+!s100 jE@S_l`WS5QPCR:[8J_Vk2
+R1
+IoIm25cLCS]10cbbIelcLK1
+R2
+R3
+R11
+R12
+R13
+!i122 355
+L0 17 29
+R5
+r1
+!s85 0
+31
+R14
+Z16 !s107 G:/University/Term 4/Lab Madman/3/Simple_TB.v|
+R15
+!i113 1
+R7
+R8
+n@t@b
+vWaveForm_Generator
+!s110 1714219465
+!i10b 1
+!s100 ZG3FIMNcE`JV`7l1m]SPW2
+R1
+IY_9m9OGQlgofn`m3o;2PR3
+R2
+R3
+w1714215797
+8G:/University/Term 4/Lab Madman/3/Waveform_Generator.v
+FG:/University/Term 4/Lab Madman/3/Waveform_Generator.v
+!i122 84
+L0 1 8
+R5
+r1
+!s85 0
+31
+!s108 1714219465.000000
+!s107 G:/University/Term 4/Lab Madman/3/Waveform_Generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/University/Term 4/Lab Madman/3/Waveform_Generator.v|
+!i113 1
+R7
+R8
+n@wave@form_@generator
